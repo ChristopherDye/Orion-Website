@@ -1,0 +1,29 @@
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 40px;
+  text-align: center;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.center-children {
+  text-align: center;
+}
+
+#myInput::-webkit-input-placeholder {
+  color: transparent;
+  text-indent: -9999px;
+  background-image: url("http://dummyimage.com/200x200/000000/d7d9f7");
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  align: center;
+}
+
+img
+  {
+    display: block;
+    margin: 15px auto;
+  }
