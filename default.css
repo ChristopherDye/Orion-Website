@@ -22,8 +22,26 @@ p {
   align: center;
 }
 
-img
-  {
-    display: block;
-    margin: 15px auto;
-  }
+/** This is the code that aligns the images horizontally.!**/
+.img_cont {
+  display: table;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.img_cont a {
+  display: table-cell;
+  text-align: center;
+  width: 16%;
+}
+
+.img_cont img {
+  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.caption {
+  display: block;
+}
+/** End of image align code. !**/
